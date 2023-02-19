@@ -1,0 +1,155 @@
+/* VARIABLES */
+
+:root {
+    /* --main-text-color : #fff; */
+    /* --main-bg-color : #fff; */
+    /* --main-font-size : 16px; */
+    /* --main-font-weight : 400; */
+    /* --main-line-height : 1.5; */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* GENERAL */
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    height: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: --, "Arial", sans-serif;
+    background-color: rgb(143, 143, 250);
+    color: rgb(43, 35, 21);
+}
+
+
+/* VISUALLY-HIDDEN */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+/* CONTAINER */
+
+.container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+/* STICKY-FOOTER */
+
+.site-main {
+    flex-grow: 1;
+}
+
+.my-lists-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.title {
+    text-align: center;
+    font-size: calc(5vw + 1rem);
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin: -0.3em 0 0.5em;
+    opacity: 0.3;
+}
+
+.all-tasks {}
+
+.task-list {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    list-style: circle;
+    padding-left: 1.1em;
+}
+
+.form {
+    display: flex;
+}
+
+.btn {
+    cursor: pointer;
+    background: 0;
+    border: 0;
+    padding: 0;
+    color: inherit;
+    font-size: 1rem;
+}
+
+.btn.create {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-right: 0.25em;
+    transition: opacity 250ms ease-in;
+}
+
+.btn.create:hover {
+    opacity: 0.7;
+}
+
+.new {
+    background: transparent;
+    border: 0;
+    color: inherit;
+    outline: none;
+    border-bottom: 1px solid currentColor;
+    font-size: inherit;
+    transition: border-bottom 150ms ease-in;
+    order: 2;
+}
+
+.new:focus {
+    border-bottom-width: 3px;
+}
+
+.new:focus::placeholder {
+    opacity: 0.2;
+}
+
+.new.list {
+    font-size: 1.1rem;
+}
+
+.active-list {
+    font-weight: 700;
+}
+
+.todo-list {}
