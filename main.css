@@ -76,7 +76,7 @@ form {
     background: 0;
     border: 0;
     padding: 0;
-    color: black;
+    color: inherit;
 }
 
 .btns {
