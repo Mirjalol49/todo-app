@@ -142,34 +142,6 @@ form {
     width: 10000px;
 }
 
-.new::-webkit-input-placeholder {
-    opacity: 0.4;
-}
-
-.new:-ms-input-placeholder {
-    font-weight: 400;
-}
-
-.new:focus {
-    border-bottom-width: 3px;
-}
-
-.new:focus::-webkit-input-placeholder {
-    opacity: 0.15;
-}
-
-.new:focus:-ms-input-placeholder {
-    opacity: 0.15;
-}
-
-.new:focus::-ms-input-placeholder {
-    opacity: 0.15;
-}
-
-.new:focus::placeholder {
-    opacity: 0.15;
-}
-
 .new.list {
     font-size: 1.1rem;
     width: 300px;
@@ -177,12 +149,6 @@ form {
 
 .new.task {
     margin-bottom: 0;
-}
-
-.place {
-    opacity: 1;
-    color: black;
-    font-weight: 500;
 }
 
 .active-list {
