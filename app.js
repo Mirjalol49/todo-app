@@ -115,7 +115,7 @@ function renderTasks(selectedList) {
 
 function renderTaskCount(selectedList) {
     const incompleteTaskCount = selectedList.tasks.filter(task => !task.complete).length
-    const taskString = incompleteTaskCount === 1 ? "task" : "ta topshiriqlar"
+    const taskString = incompleteTaskCount === 1 ? "ta topshiriq" : "ta topshiriq"
     listCountElement.innerText = `${incompleteTaskCount} ${taskString} qoldi`
 }
 

@@ -16,7 +16,7 @@ body {
     font-family: "Work Sans", sans-serif;
     font-weight: 300;
     font-size: 1.5rem;
-    background: linear-gradient(334deg, #6b97f7, #8135eb);
+    background: #5587f4;
     color: var(--clr-light);
     /* display: grid;
     grid: "header header header header" auto "...... lists  active ......" auto/1fr minmax(100px, 300px) minmax(250px, 500px) 1fr; */
@@ -36,6 +36,7 @@ body {
 
 .task-list-title {
     margin-top: 15px;
+    font-weight: 700;
     margin-bottom: 0;
 }
 
@@ -59,6 +60,7 @@ body {
 
 .list-name {
     cursor: pointer;
+    font-size: 25px;
 }
 
 .list-name:hover {
@@ -342,40 +344,21 @@ label {
     color: var(--clr-light);
 }
 
+.time {
+    margin-top: 50px;
+}
+
 .hms {
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .ampm {
     font-size: 10pt;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .date {
     font-size: 15pt;
-    font-weight: 700;
-}
-
-
-/* background */
-
-.gradient {
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(334deg, #6b97f7, #8135eb, #5a9afa);
-    background-size: 180% 180%;
-    animation: gradient-animation 6s ease infinite;
-}
-
-@keyframes gradient-animation {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+    font-weight: 600;
 }

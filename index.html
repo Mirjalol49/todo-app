@@ -5,14 +5,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Todo list</title>
+    <title>Eslatma Daftarcha</title>
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700,900&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     <link rel="stylesheet" href="./main.css">
     <script defer src="app.js"></script>
 </head>
 
 <body>
-
     <div class="container">
         <div class="time">
             <span class="hms"></span>
@@ -20,54 +20,33 @@
             <br>
             <span class="date"></span>
         </div>
-
-
-
-
-
-
-
         <div class="all-tasks">
-
             <h2 class="task-list-title">Mening Ro'yxatlarim</h2>
             <ul class="task-list" data-lists></ul>
-
             <form action="" data-new-list-form>
                 <input type="text" class="new list" data-new-list-input placeholder="yangi ro'yxat qo'shish" aria-label="new list name" />
                 <button class="btn create" aria-label="create new list">+</button>
             </form>
         </div>
-
-
-
-
-
-
         <div class="todo-list" data-list-display-container>
             <div class="todo-header">
                 <h2 class="list-title" data-list-title></h2>
                 <p class="task-count" data-list-count></p>
             </div>
-
             <div class="todo-body">
                 <div class="tasks" data-tasks></div>
-
                 <div class="new-task-creator">
                     <form action="" data-new-task-form>
                         <input type="text" data-new-task-input class="new task" placeholder="yangi topshiriq nomi" aria-label="new task name" />
                         <button class="btn create" aria-label="create new task">+</button>
                     </form>
                 </div>
-
                 <div class="delete-stuff">
                     <button class="btns delete" data-clear-complete-tasks-button><img src="./images/checked.svg" alt="check" width="30" height="30"></button>
                     <button class="btns delete" data-delete-list-button><img src="./images/trash-solid.svg" alt="trash" width="30" height="30"></button>
                 </div>
             </div>
         </div>
-
-
-
         <template id="task-template">
             <div class="task">
                 <input type="checkbox" />
@@ -76,9 +55,7 @@
                 </label>
             </div>
         </template>
-
     </div>
-
 </body>
 
 </html>
