@@ -147,15 +147,7 @@ form {
 }
 
 .new:-ms-input-placeholder {
-    opacity: 0.4;
-}
-
-.new::-ms-input-placeholder {
-    opacity: 0.4;
-}
-
-.new::placeholder {
-    opacity: 0.4;
+    font-weight: 400;
 }
 
 .new:focus {
@@ -185,6 +177,12 @@ form {
 
 .new.task {
     margin-bottom: 0;
+}
+
+.place {
+    opacity: 1;
+    color: white;
+    font-weight: 500;
 }
 
 .active-list {
