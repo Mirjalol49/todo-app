@@ -76,7 +76,7 @@ form {
     background: 0;
     border: 0;
     padding: 0;
-    color: inherit;
+    color: black;
 }
 
 .btns {
@@ -181,7 +181,7 @@ form {
 
 .place {
     opacity: 1;
-    color: white;
+    color: black;
     font-weight: 500;
 }
 
