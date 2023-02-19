@@ -362,3 +362,10 @@ label {
     font-size: 15pt;
     font-weight: 600;
 }
+
+.copyright {
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 700;
+    opacity: 0.5;
+}
